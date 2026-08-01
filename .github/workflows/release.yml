@@ -1,21 +1,65 @@
 name: Release
 
+
 on:
   push:
     tags:
       - 'v*'
 
+
 permissions:
   contents: write
 
+
 jobs:
   release:
+
     runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v4
 
-      - name: Create Release
+    steps:
+
+      # 拉取代码
+      - name: Checkout
+        uses: actions/checkout@v4
+
+
+      # 生成 Release 描述
+      - name: Generate Release Body
+        run: |
+          cat > release.md << EOF
+          ## 📦 安装方式
+
+          | 来源 | 链接 |
+          | --- | --- |
+          | GreasyFork | [千问无水印图片下载](https://greasyfork.org/zh-CN/scripts/589507-%E5%8D%83%E9%97%AE%E6%97%A0%E6%B0%B4%E5%8D%B0%E5%9B%BE%E7%89%87%E4%B8%8B%E8%BD%BD) |
+          | GitHub Release | 点击下方附件 qwen-no-watermark.js 安装 |
+
+          ---
+
+          ## ✨ 功能
+
+          - ✅ 自动获取千问 AI 图片原图
+          - ✅ 去除图片水印
+          - ✅ 一键下载图片
+
+          EOF
+
+
+      # 创建 Release
+      - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
+          body_path: release.md
           generate_release_notes: true
+          files: |
+            qwen-no-watermark.js
+
+
+
+      # 更新 Greasy Fork
+      - name: Update GreasyFork
+        run: |
+          curl -X POST \
+          "${{ secrets.GREASYFORK_WEBHOOK }}" \
+          -H "Authorization: Bearer ${{ secrets.GREASYFORK_TOKEN }}"
