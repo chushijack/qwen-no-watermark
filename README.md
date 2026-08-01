@@ -15,7 +15,7 @@
 - **手动方式**：
   1. 安装浏览器扩展 [Tampermonkey](https://www.tampermonkey.net/)（或暴力猴 Violentmonkey）
   2. 点击浏览器右上角扩展图标 → 添加新脚本
-  3. 将 `qwen-no-watermark.js` 内容复制粘贴进去，保存即可
+  3. 将 `qwen-no-watermark.user.js` 内容复制粘贴进去，保存即可
   4. 打开千问聊天页面，鼠标悬停在 AI 生成的图片上，点击右侧的 ⬇️ 按钮即可下载无水印原图
 
 ## 使用效果
@@ -36,10 +36,11 @@ AI 生成图片后，鼠标悬停在图片上，点击图片右侧出现的 ⬇�
 
 ```
 qwen-no-watermark/
-├── qwen-no-watermark.js   # 油猴脚本主文件
-├── LICENSE                # GPL-3.0 开源协议
-├── README.md              # 项目说明文档
-└── assets/               # 效果展示图片目录
+├── qwen-no-watermark.user.js   # 油猴脚本主文件
+├── qwen-no-watermark.js        # 油猴脚本主文件
+├── LICENSE                     # GPL-3.0 开源协议
+├── README.md                   # 项目说明文档
+└── assets/                     # 效果展示图片目录
 ```
 
 ## 说明
