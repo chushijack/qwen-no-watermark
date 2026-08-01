@@ -8,8 +8,8 @@
 // @csdnURL      https://blog.csdn.net/2301_77607029
 // @homepageURL  https://github.com/chushijack/qwen-no-watermark
 // @supportURL   https://github.com/chushijack/qwen-no-watermark/issues
-// @downloadURL  https://raw.githubusercontent.com/chushijack/qwen-no-watermark/main/qwen-no-watermark.user.js
-// @updateURL    https://raw.githubusercontent.com/chushijack/qwen-no-watermark/main/qwen-no-watermark.user.js
+// @downloadURL  https://raw.githubusercontent.com/chushijack/qwen-no-watermark/main/qwen-no-watermark.js
+// @updateURL    https://raw.githubusercontent.com/chushijack/qwen-no-watermark/main/qwen-no-watermark.js
 // @match        https://www.qianwen.com/chat/*
 // @icon         https://img.alicdn.com/imgextra/i2/O1CN01taBbMS1CfyJoOt0lB_!!6000000000109-2-tps-80-80.png
 // @grant        none
