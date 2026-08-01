@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name         千问无水印图片下载
 // @namespace    https://github.com/chushijack/qwen-no-watermark
-// @version      1.0.1
+// @version      1.0.2
 // @description  千问AI生图下载没有水印的原图
 // @author       ChushiJack
 // @license      GPL-3.0
 // @csdnURL      https://blog.csdn.net/2301_77607029
 // @homepageURL  https://github.com/chushijack/qwen-no-watermark
 // @supportURL   https://github.com/chushijack/qwen-no-watermark/issues
-// @downloadURL  https://raw.githubusercontent.com/chushijack/qwen-no-watermark/main/qwen-no-watermark.js
-// @updateURL    https://raw.githubusercontent.com/chushijack/qwen-no-watermark/main/qwen-no-watermark.js
+// @downloadURL  https://raw.githubusercontent.com/chushijack/qwen-no-watermark/main/qwen-no-watermark.user.js
+// @updateURL    https://raw.githubusercontent.com/chushijack/qwen-no-watermark/main/qwen-no-watermark.user.js
 // @match        https://www.qianwen.com/chat/*
 // @icon         https://img.alicdn.com/imgextra/i2/O1CN01taBbMS1CfyJoOt0lB_!!6000000000109-2-tps-80-80.png
 // @grant        none

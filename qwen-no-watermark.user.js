@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         千问无水印图片下载
 // @namespace    https://github.com/chushijack/qwen-no-watermark
-// @version      1.0.1
+// @version      1.0.2
 // @description  千问AI生图下载没有水印的原图
 // @author       ChushiJack
 // @license      GPL-3.0
