@@ -11,10 +11,12 @@
 
 ## 安装方法
 
-1. 安装浏览器扩展 [Tampermonkey](https://www.tampermonkey.net/)（或暴力猴 Violentmonkey）
-2. 点击浏览器右上角扩展图标 → 添加新脚本
-3. 将 `qwen-no-watermark.js` 内容复制粘贴进去，保存即可
-4. 打开千问聊天页面，鼠标悬停在 AI 生成的图片上，点击右侧的 ⬇️ 按钮即可下载无水印原图
+- **推荐方式**：直接在 [Greasy Fork 油叉](https://greasyfork.org/zh-CN/scripts/589507-%E5%8D%83%E9%97%AE%E6%97%A0%E6%B0%B4%E5%8D%B0%E5%9B%BE%E7%89%87%E4%B8%8B%E8%BD%BD) 页面点击「安装此脚本」即可
+- **手动方式**：
+  1. 安装浏览器扩展 [Tampermonkey](https://www.tampermonkey.net/)（或暴力猴 Violentmonkey）
+  2. 点击浏览器右上角扩展图标 → 添加新脚本
+  3. 将 `qwen-no-watermark.js` 内容复制粘贴进去，保存即可
+  4. 打开千问聊天页面，鼠标悬停在 AI 生成的图片上，点击右侧的 ⬇️ 按钮即可下载无水印原图
 
 ## 使用效果
 
